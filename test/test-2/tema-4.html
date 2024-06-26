@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      type="text/javascript"
+      src="../scripts/quizlib.1.0.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../scripts/main.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/quizlib.min.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/stylesheet.css"
+      media="screen"
+    />
+    <title>
+      4-Тема: Способы кодирования текстовой и графической информации
+    </title>
+  </head>
+
+  <body>
+    <h2 style="text-align: center">
+      4-Тема: Способы кодирования текстовой и графической информации
+    </h2>
+    <!-- Quiz Container -->
+    <div id="quiz4">
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          1. Какие основные цели кодирования текстовой информации?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="a" />
+                A. Сокрытие текста от чтения
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="b" />
+                B. Сжатие текста для экономии места
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="c" />
+                C. Передача текста через сети
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="d" />
+                D. Все вышеперечисленное
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          2. Какие системы кодирования обычно используются для представления
+          символов текста в компьютерах?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="a" />
+                A. ASCII
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="b" />
+                B. Unicode
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="c" />
+                C. UTF-8
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="d" />
+                D. Все вышеперечисленное
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          3. Что представляет собой кодирование Huffman?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="a" />
+                A. Метод сжатия данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="b" />
+                B. Система шифрования текста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="c" />
+                C. Кодирование для передачи по электронной почте
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="d" />
+                D. Кодирование цветов в изображениях
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          4. Какой формат кодирования часто используется для представления
+          текста в веб-страницах?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="a" />
+                A. ASCII
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="b" />
+                B. UTF-16
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="c" />
+                C. UTF-8
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="d" />
+                D. Binary
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          5. Каково преимущество использования Unicode по сравнению с ASCII?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="a" />
+                A. Unicode включает в себя больше символов, включая различные
+                языки и символы
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="b" />
+                B. ASCII более эффективен для сжатия текста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="c" />
+                C. Unicode поддерживает только латинский алфавит
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="d" />
+                D. ASCII требует меньше битов для представления каждого символа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">6. Что такое Base64?</div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="a" />
+                A. Система кодирования, преобразующая двоичные данные в
+                ASCII-текст
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="b" />
+                B. Метод сжатия текста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="c" />
+                C. Система шифрования для защиты конфиденциальности данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="d" />
+                D. Формат кодирования для изображений
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          7. Какие из следующих являются примерами двоичных кодировок?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="a" />
+                A. BCD (Binary Coded Decimal)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="b" />
+                B. EBCDIC (Extended Binary Coded Decimal Interchange Code)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="c" />
+                C. Грей-код (Gray code)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="d" />
+                D. Все вышеперечисленное
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          8. Как работает метод кодирования Run-Length Encoding (RLE)?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="a" />
+                A. Заменяет повторяющиеся символы на один символ и количество
+                его повторений
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="b" />
+                B. Преобразует текст в последовательность битов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="c" />
+                C. Использует таблицу замещения для замены символов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="d" />
+                D. Добавляет случайные биты для шифрования
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          9. Какие из следующих являются примерами асимметричных алгоритмов
+          кодирования?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="a" />
+                A. RSA
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="b" />
+                B. AES
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="c" />
+                C. DES
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="d" />
+                D. SHA-256
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          10. В чем заключается идея стеганографии?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="a" />
+                A. Скрытие информации в другой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="b" />
+                B. Шифрование текста для защиты конфиденциальности
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="c" />
+                C. Сжатие текста для экономии места
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="d" />
+                D. Передача текста по сети
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          11. Какой из следующих алгоритмов используется для сжатия изображений?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="a" />
+                A. Huffman
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="b" />
+                B. RSA
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="c" />
+                C. SHA-256
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="d" />
+                D. EBCDIC
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          12. Какая из кодировок предназначена для представления текста на
+          различных языках мира?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="a" />
+                A. ASCII
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="b" />
+                B. UTF-8
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="c" />
+                C. BCD
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="d" />
+                D. EBCDIC
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          13. Что такое URL-кодирование (percent-encoding)?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="a" />
+                A. Процесс преобразования специальных символов в символы URL
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="b" />
+                B. Шифрование данных для безопасной передачи
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="c" />
+                C. Кодирование текста в формате Base64
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="d" />
+                D. Процесс сжатия текста
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          14. Какие из следующих алгоритмов являются криптографическими
+          хеш-функциями?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="a" />
+                A. MD5
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="b" />
+                B. Run-Length Encoding (RLE)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="c" />
+                C. Base64
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="d" />
+                D. Huffman
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          15. Что представляет собой алгоритм Шифр Цезаря?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="a" />
+                A. Сдвиг букв в алфавите на определенное количество позиций
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="b" />
+                B. Замена каждой буквы случайной другой буквой
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="c" />
+                C. Шифрование с использованием двух ключей
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="d" />
+                D. Компрессия текста с использованием таблицы частот
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          16. Какие основные цели кодирования графической информации?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="a" />
+                A. Сокрытие изображения от просмотра
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="b" />
+                B. Сжатие изображения для экономии места
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="c" />
+                C. Передача изображения через сети
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="d" />
+                D. Все вышеперечисленное
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          17. Какие форматы файлов широко используются для кодирования
+          статических изображений?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="a" />
+                A. JPEG
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="b" />
+                B. GIF
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                C. PNG
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                D. Все вышеперечисленное
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          18. Какие из перечисленных форматов наилучшим образом подходят для
+          изображений с прозрачностью?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="a" />
+                A. JPEG
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="b" />
+                B. GIF
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="c" />
+                C. PNG
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="d" />
+                D. BMP
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          19. Что представляет собой метод кодирования Raster (битовая графика)?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="a" />
+                A. Использует графические примитивы для представления
+                изображения
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="b" />
+                B. Преобразует изображение в последовательность пикселей
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="c" />
+                C. Использует векторные операции для описания изображения
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="d" />
+                D. Шифрует изображение для безопасности
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          20. Какие алгоритмы используются для сжатия изображений без потерь?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="a" />
+                A. JPEG
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="b" />
+                B. GIF
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="c" />
+                C. PNG
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="d" />
+                D. RLE (Run-Length Encoding)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+21.	Какой формат подходит для сохранения изображений с анимацией?        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="a" />
+A.	JPEG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="b" />
+B.	GIF              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="c" />
+C.	PNG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="d" />
+D.	BMP              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+22.	Какой из следующих форматов обеспечивает лучшую поддержку для фотографий с миллионами оттенков цвета?        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="a" />
+A.	GIF              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="b" />
+B.	JPEG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="c" />
+C.	PNG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="d" />
+D.	BMP              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+23.	Какие из перечисленных методов используются для сжатия изображений с потерями?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="a" />
+A.	RLE              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="b" />
+B.	Huffman              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="c" />
+C.	JPEG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="d" />
+D.	PNG              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+24.	Что такое цветовое пространство в контексте графического кодирования?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="a" />
+A.	Матрица, представляющая цвета изображения              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="b" />
+B.	Способ представления цветов в изображении              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="c" />
+C.	Таблица шифрования цветовых значений              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="d" />
+D.	Формат файла изображения              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+25.	Какой формат подходит для сохранения изображений с прозрачностью и поддержкой миллионов цветов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="a" />
+A.	GIF              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="b" />
+B.	JPEG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="c" />
+C.	PNG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="d" />
+D.	BMP              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+26.	Какой из форматов изображений часто используется для снимков экрана или иллюстраций, где важно сохранить максимально возможное качество изображения?        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="a" />
+A.	JPEG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="b" />
+B.	GIF              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="c" />
+C.	PNG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="d" />
+D.	BMP              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+27.	Что представляет собой алгоритм Lempel-Ziv-Welch (LZW), применяемый, например, в формате GIF?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="a" />
+A.	Метод сжатия изображений без потерь              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="b" />
+B.	Метод шифрования изображений              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="c" />
+C.	Метод анализа цветового спектра              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="d" />
+D.	Метод кодирования метаданных
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+ 28.	Какая особенность у формата PNG, делающая его привлекательным для веб-графики?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="a" />
+A.	Поддержка анимации              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="b" />
+B.	Сжатие с потерями              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="c" />
+C.	Поддержка прозрачности              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="d" />
+D.	Использование векторной графики              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+29.	Какие из форматов изображений могут содержать последовательности кадров для анимации?        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="a" />
+A.	JPEG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="b" />
+B.	GIF              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="c" />
+C.	PNG              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="d" />
+D.	BMP              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+30.	Что такое метаданные изображения?        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="a" />
+A.	Данные, кодирующие цвета пикселей              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="b" />
+B.	Дополнительная информация о содержании изображения, такая как автор, камера, дата создания и т. д.              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="c" />
+C.	Запись о количестве пикселей в изображении              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="d" />
+D.	Спецификация цветового пространства изображения              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Quiz Results -->
+      <div id="quiz-result" class="card">
+        результат тестов
+        <span id="quiz-percent"></span>
+        % -
+        <span id="quiz-score"></span>
+        /
+        <span id="quiz-max-score"></span>
+        <br />
+      </div>
+      <button type="button" onclick="showResults(this.parentNode.id);">
+        Проверить ответы
+      </button>
+    </div>
+  </body>
+  <script>
+    window.onload = function () {
+      quiz = new Quiz("quiz4", [
+        "d",
+        "d",
+        "a",
+        "c",
+        "a",
+        "a",
+        "d",
+        "a",
+        "a",
+        "a",
+        "a",
+        "b",
+        "a",
+        "a",
+        "a",
+        "d",
+        "d",
+        "c",
+        "b",
+        "c",
+        "b",
+        "b",
+        "c",
+        "b",
+        "c",
+        "c",
+        "a",
+        "c",
+        "b",
+        "b",
+      ]);
+    };
+  </script>
+</html>

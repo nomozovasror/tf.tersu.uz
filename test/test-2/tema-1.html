@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      type="text/javascript"
+      src="../scripts/quizlib.1.0.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../scripts/main.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/quizlib.min.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/stylesheet.css"
+      media="screen"
+    />
+    <title>
+        1-тема: Оценка объема информации, используя формулы Хартли и Шеннона
+    </title>
+  </head>
+
+  <body>
+    <h2 style="text-align: center">
+        1-тема: Оценка объема информации, используя формулы Хартли и Шеннона    </h2>
+    <!-- Quiz Container -->
+    <div id="quiz">
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          1. Какая единица измерения информации используется для обозначения
+          объема оперативной памяти компьютера?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="a" />
+                A. Гигабайт (GB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="b" />
+                B. Мегабит (Mb)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="c" />
+                C. Терабайт (TB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="d" />
+                D. Килобит (Kb)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          2. Какое из следующих утверждений верно относительно относительной
+          единицы измерения информации?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="a" />
+                A. 1 Килобайт (KB) равен 1000 байт
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="b" />
+                B. 1 Мегабайт (MB) равен 1024 байтам
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="c" />
+                C. 1 Гигабит (Gb) равен 1000 килобитам
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="d" />
+                D. 1 Терабайт (TB) равен 1024 гигабайтам
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          3. Какие из следующих единиц измерения информации используются для
+          измерения скорости передачи данных?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="a" />
+                A. Байт в секунду (B/s)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="b" />
+                B. Бит в секунду (bps)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="c" />
+                C. Гигабайт в минуту (GB/min)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="d" />
+                D. Терабит в час (Tb/h)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          4. Какая единица измерения информации обычно используется для
+          обозначения объема файлов и дисков?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="a" />
+                A. Бит (b)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="b" />
+                B. Килобайт (KB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="c" />
+                C. Мегагерц (MHz)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="d" />
+                D. Гигаватт (GW)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          5. Какие из следующих единиц измерения информации применяются в
+          сетевых технологиях?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="a" />
+                A. Киловольт (kV)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="b" />
+                B. Мегабит в секунду (Mbps)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="c" />
+                C. Терабайт в час (TB/h)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="d" />
+                D. Гигагерц (GHz)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          6. Какова единица измерения информации, используемая для измерения
+          частоты передачи данных на сети Ethernet?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="a" />
+                A. Килобит в секунду (Kbps)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="b" />
+                B. Мегагерц (MHz)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="c" />
+                C. Бит в секунду (bps)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="d" />
+                D. Киловольт (kV)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          7. Сколько байт в 1 килобайте (KB)?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="a" />
+                A. 1000 байт
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="b" />
+                B. 1024 байта
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="c" />
+                C. 500 байт
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="d" />
+                D. 2048 байт
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          8. Какая единица измерения информации используется для обозначения
+          емкости DVD-диска?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="a" />
+                A. Мегабайт (MB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="b" />
+                B. Гигабайт (GB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="c" />
+                C. Терабит (Tb)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="d" />
+                D. Килобит в секунду (Kbps)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          9. Какие из следующих единиц измерения обычно используются для
+          измерения скорости процессора?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="a" />
+                A. Мегагерц (MHz)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="b" />
+                B. Гигабайт (GB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="c" />
+                C. Терабит в час (TB/h)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="d" />
+                D. Бит в секунду (bps)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          10. Какая единица измерения информации часто применяется для измерения
+          объема жесткого диска?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="a" />
+                A. Килобит (Kb)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="b" />
+                B. Гигабайт (GB)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="c" />
+                C. Бит в секунду (bps)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="d" />
+                D. Терагерц (THz)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          11. Кто предложил формулу, известную как "Формула Хартли"?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="a" />
+                A. Клод Шеннон
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="b" />
+                B. Алан Тьюринг
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="c" />
+                C. Ричард Хартли
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="d" />
+                D. Уоррен Уивер
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          12. Что измеряется с помощью формулы Хартли?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="a" />
+                A. Сложность алгоритмов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="b" />
+                B. Количество информации в сообщении
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="c" />
+                C. Скорость передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="d" />
+                D. Энтропия в системе
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          13. Какова формула Хартли для расчета количества информации?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="a" />
+                A. I = log2(N)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="b" />
+                B. I = log10(N)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="c" />
+                C. I = N / log2(N)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="d" />
+                D. I = 2^N
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          14. Что означает "N" в формуле Хартли?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="a" />
+                A. Количество символов в сообщении
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="b" />
+                B. Количество бит в байте
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="c" />
+                C. Количество байт в сообщении
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="d" />
+                D. Количество возможных событий
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          15. Какова единица измерения количества информации в контексте формулы
+          Хартли?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="a" />
+                A. Байт (B)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="b" />
+                B. Бит (bit)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="c" />
+                C. Герц (Hz)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="d" />
+                D. Ватт (W)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          16. Как формула Хартли связана с вероятностью событий?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="a" />
+                A. I = -log2(P)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="b" />
+                B. I = P / log2(P)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="c" />
+                C. I = log10(P)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="d" />
+                D. I = 1 / P
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          17. Что происходит с количеством информации, если вероятность события
+          уменьшается?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="a" />
+                A. Увеличивается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="b" />
+                B. Уменьшается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                C. Остается неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="d" />
+                D. Не влияет на количество информации
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          18. Каково значение логарифма в формуле Хартли, если вероятность
+          события равна 1?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="a" />
+                A. 1
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="b" />
+                B. 0
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="c" />
+                C. Бесконечность
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="d" />
+                D. -1
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          19. Как формула Хартли используется в теории сжатия данных?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="a" />
+                A. Для измерения энтропии данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="b" />
+                B. Для определения скорости передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="c" />
+                C. Для оценки сложности алгоритмов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="d" />
+                D. Для измерения времени задержки в сети
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          20. Какие из следующих утверждений верны относительно формулы Хартли?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="a" />
+                A. Информация всегда измеряется в байтах
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="b" />
+                B. Формула применима только для целых чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="c" />
+                C. Она основана на идее использования кодов Хаффмана
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="d" />
+                D. Формула предназначена только для анализа текстовой информации
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          21. Кто предложил формулу, известную как "Формула Шеннона"?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="a" />
+                A. Клод Шеннон
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="b" />
+                B. Алан Тьюринг
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="c" />
+                C. Джон фон Нейманн
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="d" />
+                D. Норберт Винер
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          22. Какова основная цель формулы Шеннона?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="a" />
+                A. Расчет количества информации в сообщении
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="b" />
+                B. Определение эффективности алгоритмов сжатия
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="c" />
+                C. Измерение скорости передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="d" />
+                D. Оценка энтропии в системе
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          23. Какова формула Шеннона для расчета количества информации?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="a" />
+                A. I = log2(N)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="b" />
+                B. I = log10(N)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="c" />
+                C. I = -p * log2(p)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="d" />
+                D. I = 2^N
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          24. Как формула Шеннона связана с вероятностью событий?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="a" />
+                A. I = -log2(P)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="b" />
+                B. I = P / log2(P)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="c" />
+                C. I = log10(P)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="d" />
+                D. I = 1 / P
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          25. Какова единица измерения количества информации в контексте формулы
+          Шеннона?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="a" />
+                A. Байт (B)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="b" />
+                B. Бит (bit)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="c" />
+                C. Герц (Hz)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="d" />
+                D. Ватт (W)
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          26. Как формула Шеннона применяется в теории кодирования?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="a" />
+                A. Для измерения энтропии данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="b" />
+                B. Для расчета статистической сложности сообщений
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="c" />
+                C. Для определения вероятности ошибки в передаче данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="d" />
+                D. Для оценки времени задержки в сети
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          27. Что происходит с количеством информации, если вероятность события
+          уменьшается согласно формуле Шеннона?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="a" />
+                A. Увеличивается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="b" />
+                B. Уменьшается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="c" />
+                C. Остается неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="d" />
+                D. Не влияет на количество информации
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          28. Каково значение логарифма в формуле Шеннона, если вероятность
+          события равна 1?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="a" />
+                A. 1
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="b" />
+                B. 0
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="c" />
+                C. Бесконечность
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="d" />
+                D. -1
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          29. Как формула Шеннона используется в теории сжатия данных?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="a" />
+                A. Для измерения энтропии данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="b" />
+                B. Для определения скорости передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="c" />
+                C. Для оценки сложности алгоритмов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="d" />
+                D. Для измерения времени задержки в сети
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          30. Какие из следующих утверждений верны относительно формулы Шеннона?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="a" />
+                A. Информация всегда измеряется в байтах
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="b" />
+                B. Формула применима только для целых чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="c" />
+                C. Она основана на идее использования кодов Хаффмана
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="d" />
+                D. Формула предназначена только для анализа текстовой информации
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Quiz Results -->
+      <div id="quiz-result" class="card">
+        результат тестов
+        <span id="quiz-percent"></span>
+        % -
+        <span id="quiz-score"></span>
+        /
+        <span id="quiz-max-score"></span>
+        <br />
+      </div>
+      <button type="button" onclick="showResults(this.parentNode.id);">
+        Проверить ответы
+      </button>
+    </div>
+  </body>
+  <script>
+    window.onload = function () {
+      quiz = new Quiz("quiz", [
+        "a",
+        "b",
+        "b",
+        "b",
+        "b",
+        "a",
+        "b",
+        "b",
+        "a",
+        "b",
+        "a",
+        "b",
+        "a",
+        "c",
+        "b",
+        "a",
+        "b",
+        "c",
+        "a",
+        "d",
+        "a",
+        "a",
+        "c",
+        "a",
+        "b",
+        "c",
+        "b",
+        "c",
+        "a",
+        "b",
+      ]);
+    };
+  </script>
+</html>
