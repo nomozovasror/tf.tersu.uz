@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      type="text/javascript"
+      src="../scripts/quizlib.1.0.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../scripts/main.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/quizlib.min.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/stylesheet.css"
+      media="screen"
+    />
+    <title>6-Тема: Выражение числа через фиксированную и плавающую точку</title>
+  </head>
+
+  <body>
+    <h2 style="text-align: center">
+      6-Тема: Выражение числа через фиксированную и плавающую точку
+    </h2>
+    <!-- Quiz Container -->
+    <div id="quiz6">
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          1. Что представляет собой формат с фиксированной точкой в
+          представлении чисел?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="a" />
+                A. Числа с плавающей точкой
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="b" />
+                B. Целочисленные числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="c" />
+                C. Дробные числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="d" />
+                D. Числа в экспоненциальной форме
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          2.Как называется разрядная сетка в числах с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="a" />
+                A.Мантисса
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="b" />
+                B.Порядок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="c" />
+                C.Дробная часть
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="d" />
+                D.Целая часть
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          3.Какой из следующих примеров представляет число 5,75 в формате с
+          фиксированной точкой с 8 битами?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="a" />
+                A.01000110
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="b" />
+                B.10101010
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="c" />
+                C.11000011
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="d" />
+                D.00110011
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          4.Что происходит с диапазоном представимых чисел при увеличении числа
+          битов в формате с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="a" />
+                A.Диапазон увеличивается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="b" />
+                B.Диапазон уменьшается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="c" />
+                C.Диапазон остается неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="d" />
+                D.Диапазон зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          5.Как изменится точность представления дробных чисел, если увеличить
+          количество битов в формате с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="a" />
+                A.Увеличится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="b" />
+                B.Уменьшится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="c" />
+                C.Останется неизменной
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="d" />
+                D.Зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          6.Что такое "фиксированная" в формате с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="a" />
+                A.Точка, которая всегда находится в середине числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="b" />
+                B.Точка, которая не может двигаться
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="c" />
+                C.Точка, которая автоматически выставляется в середине числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="d" />
+                D.Точка, которая всегда находится в начале числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          7.Какой из следующих форматов представляет число 3,25 в формате с
+          фиксированной точкой с 6 битами, где 3 бита отведены для дробной
+          части?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="a" />
+                A.011001
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="b" />
+                B.110100
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="c" />
+                C.001100
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="d" />
+                D.100011
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          8.Что происходит с точностью представления дробных чисел при
+          увеличении числа битов в дробной части формата с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="a" />
+                A.Увеличивается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="b" />
+                B.Уменьшается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="c" />
+                C.Остается неизменной
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="d" />
+                D.Зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          9.Что такое "переполнение" в контексте чисел с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="a" />
+                A.Процесс потери точности при представлении больших чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="b" />
+                B.Превышение предела диапазона представления чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="c" />
+                C.Округление числа до целого значения
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="d" />
+                D.Расширение диапазона представления чисел
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          10.Каким образом представляется отрицательное число в формате с
+          фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="a" />
+                A.В дополнительном коде
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="b" />
+                B.В обратном коде
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="c" />
+                C.С использованием знакового модуля
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="d" />
+                D.Отрицательные числа не могут быть представлены в формате с
+                фиксированной точкой
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          11.Как изменится количество представимых чисел, если увеличить количество битов в формате с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="a" />
+                A.Увеличится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="b" />
+                B.Уменьшится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="c" />
+                C.Останется неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="d" />
+                D.Зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          12.Что представляют собой форматы Q1.15 и Q8.8 в контексте чисел с
+          фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="a" />
+                A.Количество битов в числе
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="b" />
+                B.Диапазон представимых значений
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="c" />
+                C.Количество битов в целой и дробной частях
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="d" />
+                D.Степень сжатия числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          13.Что такое "плавающая точка" в контексте числовых форматов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="a" />
+                A.Точка, которая может двигаться в числе
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="b" />
+                B.Точка, которая всегда находится в середине числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="c" />
+                C.Точка, которая всегда находится в начале числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="d" />
+                D.Точка, которая всегда находится в конце числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          14.Как изменится точность представления дробных чисел, если увеличить
+          количество битов в целой части формата с фиксированной точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="a" />
+                A.Увеличится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="b" />
+                B.Уменьшится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="c" />
+                C.Останется неизменной
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="d" />
+                D.Зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          15.Что представляет собой формат числа с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="a" />
+                A.Целое число
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="b" />
+                B.Дробное число
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="c" />
+                C.Комплексное число
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="d" />
+                D.Векторное число
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          16.Какие две основные части включает в себя число с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="a" />
+                A.Целая и дробная части
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="b" />
+                B.Экспонента и мантисса
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="c" />
+                C.Действительная и мнимая части
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="d" />
+                D.Старший и младший разряды
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          17.Что представляет собой мантисса в числе с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="a" />
+                A.Экспоненциальную часть
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="b" />
+                B.Дробную часть
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                C.Целую часть
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                D.Знак числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          18.Какой компонент числа с плавающей точкой определяет положение
+          десятичной точки?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="a" />
+                A.Экспонента
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="b" />
+                B.Мантисса
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="c" />
+                C.Знак числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="d" />
+                D.Целая часть
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          19.Что такое экспоненциальная форма представления числа с плавающей
+          точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="a" />
+                A.a * 10^b
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="b" />
+                B.a * 2^b
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="c" />
+                C.a + bi
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="d" />
+                D.a / b
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          20.Что означает "нормализация" в контексте чисел с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="a" />
+                A.Приведение числа к диапазону от 0 до 1
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="b" />
+                B.Приведение мантиссы к наименьшей возможной дроби
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="c" />
+                C.Приведение числа к целому
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="d" />
+                Приведение числа к экспоненциальной форме
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          21.Какой формат представления числа с плавающей точкой используется в
+          стандартах IEEE 754?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="a" />
+                A.Single-precision
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="b" />
+                B.Double-precision
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="c" />
+                C.Quadruple-precision
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          22.Что происходит с точностью представления числа при увеличении
+          количества битов в мантиссе?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="a" />
+                A.Увеличивается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="b" />
+                B.Уменьшается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="c" />
+                C.Остается неизменной
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="d" />
+                D.Зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          23.Какой из следующих форматов представляет число в форме IEEE 754
+          Single-precision?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="a" />
+                A.32 бита, 8 экспоненциальных бит, 23 бита мантиссы
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="b" />
+                B.64 бита, 11 экспоненциальных бит, 52 бита мантиссы
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="c" />
+                C.128 бит, 15 экспоненциальных бит, 112 бит мантиссы
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          24.Каков диапазон представимых чисел в формате IEEE 754
+          Single-precision?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="a" />
+                A.От -3.4 * 10^38 до 3.4 * 10^38
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="b" />
+                B.От -1.7 * 10^-308 до 1.7 * 10^308
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="c" />
+                C.От -1.0 до 1.0
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="d" />
+                D.От -128 до 127
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          25.Что представляет собой "бесконечность" в числах с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="a" />
+                A.Очень большое число
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="b" />
+                B.Очень маленькое число
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="c" />
+                C.Положительное или отрицательное бесконечное значение
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="d" />
+                D.Значение, выходящее за пределы диапазона представления
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          26.Какова роль бита знака в формате числа с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="a" />
+                A.Определение целой части
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="b" />
+                B.Определение дробной части
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="c" />
+                C.Определение положения десятичной точки
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="d" />
+                D.Определение знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          27.Что такое "NaN" в числах с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="a" />
+                A.Бесконечное значение
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="b" />
+                B.Нуль
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="c" />
+                C."Не число" (Not a Number)
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="d" />
+                D.Единица
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          28.Как изменится диапазон представимых чисел, если увеличить
+          количество битов в экспоненциальной части формата с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="a" />
+                A.Увеличится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="b" />
+                B.Уменьшится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="c" />
+                C.Останется неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="d" />
+                D.Зависит от знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          29.Что такое "потеря значащих разрядов" в числах с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="a" />
+                A.Потеря точности при округлении
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="b" />
+                B.Потеря битов в мантиссе из-за ограниченного размера
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="c" />
+                C.Потеря экспоненциальной части числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="d" />
+                D.Потеря знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Quiz Results -->
+      <div id="quiz-result" class="card">
+        результат тестов
+        <span id="quiz-percent"></span>
+        % -
+        <span id="quiz-score"></span>
+        /
+        <span id="quiz-max-score"></span>
+        <br />
+      </div>
+      <button type="button" onclick="showResults(this.parentNode.id);">
+        Проверить ответы
+      </button>
+    </div>
+  </body>
+  <script>
+    window.onload = function () {
+      quiz = new Quiz("quiz6", [
+        "c",
+        "c",
+        "c",
+        "a",
+        "a",
+        "b",
+        "a",
+        "a",
+        "b",
+        "a",
+        "b",
+        "a",
+        "c",
+        "a",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "b",
+        "d",
+        "a",
+        "a",
+        "a",
+        "c",
+        "d",
+        "c",
+        "a",
+      ]);
+    };
+  </script>
+</html>

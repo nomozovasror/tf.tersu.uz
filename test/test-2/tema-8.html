@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      type="text/javascript"
+      src="../scripts/quizlib.1.0.1.min.js"
+    ></script>
+    <script type="text/javascript" src="../scripts/main.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/quizlib.min.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../styles/stylesheet.css"
+      media="screen"
+    />
+    <title>8-Тема: Модификационные коды и арифметические операции над ними</title>
+  </head>
+
+  <body>
+    <h2 style="text-align: center">
+        8-Тема: Модификационные коды и арифметические операции над ними
+    </h2>
+    <!-- Quiz Container -->
+    <div id="quiz8">
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          1.Что представляют собой модификационные коды в цифровой обработке сигналов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="a" />
+                A.Коды, используемые для защиты от ошибок в передаваемой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="b" />
+                B.Коды, изменяющие свою структуру в зависимости от условий передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="c" />
+                C.Коды, уменьшающие размер передаваемой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q1" value="d" />
+                D.Коды, предназначенные для компрессии данных
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          2.Какие задачи решают модификационные коды?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="a" />
+                A.Увеличение скорости передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="b" />
+                B.Улучшение устойчивости к ошибкам
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="c" />
+                C.Сокращение объема передаваемой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q2" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          3.Что такое "код Хэмминга" в контексте модификационных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="a" />
+                A.Код, предназначенный для сжатия данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="b" />
+                B.Код, способный исправлять одиночные ошибки и обнаруживать двойные ошибки
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="c" />
+                C.Код, изменяющий свою структуру в зависимости от контекста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q3" value="d" />
+                D.Код, использующий дополнительные биты для представления знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          4.Как изменяется эффективность кодов Хэмминга при увеличении количества исправляемых ошибок?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="a" />
+                A.Увеличивается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="b" />
+                B.Уменьшается
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="c" />
+                C.Остается неизменной
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q4" value="d" />
+                D.Зависит от типа передаваемой информации
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          5.Что представляют собой "блочные коды" в контексте модификационных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="a" />
+                A.Коды, предназначенные для кодирования блоков информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="b" />
+                B.Коды, изменяющие свою структуру при передаче данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="c" />
+                C.Коды, предназначенные для кодирования отдельных битов информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q5" value="d" />
+                D.Коды, используемые только для числовых данных
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          6.Какие из перечисленных являются примерами блочных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="a" />
+                A.Код Хэмминга
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="b" />
+                B.Рида-Соломона
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="c" />
+                C.Линейный блочный код
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q6" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          7.Что такое "код БЧХ" в контексте модификационных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="a" />
+                A.Бинарный код Хэмминга
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="b" />
+                B.Блочный код Хэмминга
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="c" />
+                C.Блочный код с проверкой по Хэммингу
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q7" value="d" />
+                D.Блочный код Бозе-Чаудхури-Хоквингема
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          8.Как модификационные коды могут повысить устойчивость к ошибкам при передаче данных?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="a" />
+                A.Используя дополнительные биты для обнаружения и исправления ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="b" />
+                B.Изменяя структуру кода в зависимости от контекста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="c" />
+                C.Уменьшая количество битов в передаваемой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q8" value="d" />
+                D.Увеличивая скорость передачи данных
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          9.Какой принцип лежит в основе работы кодов Рида-Соломона?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="a" />
+                A.Обнаружение и исправление ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="b" />
+                B.Изменение структуры кода в зависимости от контекста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="c" />
+                C.Сжатие данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q9" value="d" />
+                D.Использование дополнительных битов для представления знака числа
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          10.Что такое "кодирование с избыточностью" в модификационных кодах?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="a" />
+                A.Использование дополнительных битов для обеспечения надежности передачи данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="b" />
+                B.Изменение структуры кода для уменьшения объема передаваемой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="c" />
+                C.Передача данных только в двоичной системе счисления
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q10" value="d" />
+                D.Использование только блочных кодов
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          11.Что такое "кодирование с кодовым расстоянием" в модификационных кодах?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="a" />
+                A.Метод определения расстояния между кодами
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="b" />
+                B.Применение дополнительных битов для обнаружения ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="c" />
+                C.Выбор кодов в зависимости от расстояния между ними
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q11" value="d" />
+                D.Изменение кода в зависимости от расстояния до приемника
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          12.Какие преимущества предоставляют коды Рида-Соломона в контексте модификационных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="a" />
+                A.Эффективность при обнаружении и исправлении ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="b" />
+                B.Минимальное использование дополнительных битов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="c" />
+                C.Способность изменять свою структуру при передаче данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q12" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          13.Как модификационные коды помогают обеспечивать целостность данных при передаче?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="a" />
+                A.Использованием дополнительных битов для исправления ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="b" />
+                B.Сокращением объема передаваемой информации
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q13" value="c" />
+                C.Модификацией кода в зависимости от условий передачи
+              </label>
+            </li>
+            <li>
+              D.Использованием только блочных кодов
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          14.Что такое "код с непрерывной проверкой" в контексте модификационных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="a" />
+                A.Код, который непрерывно изменяет свою структуру
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="b" />
+                B.Код, который постоянно проверяет наличие ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="c" />
+                C.Код, предназначенный только для непрерывных данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q14" value="d" />
+                D.Код, использующий только непрерывные последовательности
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          15.Какой принцип лежит в основе блочных кодов в модификационных кодах?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="a" />
+                A.Работа с непрерывными данными
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="b" />
+                B.Разделение информации на блоки и их кодирование
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="c" />
+                C.Изменение структуры кода при передаче данных
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q15" value="d" />
+                D.Использование дополнительных битов для обнаружения ошибок
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          16.Что представляют собой арифметические операции над кодами в контексте цифровой обработки сигналов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="a" />
+                A.Операции сложения и вычитания, применяемые к двоичным кодам
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="b" />
+                B.Умножение и деление кодов для увеличения точности
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="c" />
+                C.Преобразование кодов в другие системы счисления
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q16" value="d" />
+                D.Операции, изменяющие структуру кодов при передаче данных
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          17.Как производится сложение двоичных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="a" />
+                A.Путем конкатенации кодов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="b" />
+                B.Пошаговым складыванием битов с учетом переноса
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                C.Инвертированием битов одного из кодов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q17" value="c" />
+                D.Путем умножения битов
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          18.Какой принцип лежит в основе операции вычитания двоичных кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="a" />
+                A.Инвертирование битов одного из кодов и затем сложение
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="b" />
+                B.Вычитание значений битов кодов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="c" />
+                C.Использование дополнительных битов для представления знака числа
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q18" value="d" />
+                D.Переключение между различными системами счисления
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          19.Как изменится структура кода при выполнении арифметических операций?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="a" />
+                A.Структура останется неизменной
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="b" />
+                B.Биты могут быть инвертированы или добавлены
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="c" />
+                C.Весь код будет заменен новым
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q19" value="d" />
+               D.Структура изменится только в случае ошибки
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          20.Что такое "переполнение" при выполнении арифметических операций над кодами?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="a" />
+                A.Превышение предела диапазона представления чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="b" />
+                B.Инвертирование всех битов кода
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="c" />
+                C.Добавление дополнительного бита знака
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q20" value="d" />
+                D.Изменение диапазона представимых чисел
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          21.Какова роль дополнительного бита знака при выполнении арифметических операций?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="a" />
+                A.Указание наличия или отсутствия ошибок
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="b" />
+                B.Переключение между операциями сложения и вычитания
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="c" />
+                C.Определение знака результата операции
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q21" value="d" />
+                D.Использование только в случае отрицательных чисел
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          22.Как изменится диапазон представимых чисел при использовании дополнительного бита знака?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="a" />
+                A.Увеличится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="b" />
+                B.Уменьшится
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="c" />
+                C.Останется неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q22" value="d" />
+                D.Зависит от типа передаваемой информации
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          23.Что представляют собой "арифметические коды" в контексте арифметических операций?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="a" />
+                A.Коды, предназначенные для вычислений и расчетов
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="b" />
+                B.Коды, используемые только в математических формулах
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="c" />
+                C.Коды, специально разработанные для арифметических операций
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q23" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          24.Какие из перечисленных являются примерами арифметических кодов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="a" />
+                A.Код Грея
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="b" />
+                B.Дополнительный код
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="c" />
+                C.Прямой код
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q24" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          25.Как арифметические операции над кодами влияют на точность представления чисел?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="a" />
+                A.Могут привести к потере точности из-за переполнения
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="b" />
+                B.Увеличивают точность представления чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="c" />
+                C.Не влияют на точность
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q25" value="d" />
+                Зависит от типа операции и кода
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          26.Как арифметические операции над кодами влияют на скорость передачи данных?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="a" />
+                A.Увеличивают скорость передачи
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="b" />
+                B.Уменьшают скорость передачи
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="c" />
+                C.Не влияют на скорость
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q26" value="d" />
+                D.Зависит от длины кодов
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          27.Что представляют собой "коды с представлением числа через фиксированную точку" в арифметических операциях?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="a" />
+                A.Коды, используемые только для целых чисел
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="b" />
+                B.Коды, представляющие числа с фиксированным количеством десятичных знаков
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="c" />
+                C.Коды, представляющие числа в двоичной системе счисления
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q27" value="d" />
+                D.Все вышеперечисленные
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          28.Какие проблемы могут возникнуть при арифметических операциях с числами в кодах с плавающей точкой?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="a" />
+                A.Потеря точности из-за представления чисел в научной форме
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="b" />
+                B.Необходимость использования дополнительных битов для представления знака
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="c" />
+                C.Зависимость от типа операции и кода
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q28" value="d" />
+                D.Отсутствие проблем при использовании кодов с плавающей точкой
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          29.Как изменится результат арифметической операции при использовании кодов с плавающей точкой с большим количеством битов?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="a" />
+                A.Увеличится точность результата
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="b" />
+                B.Уменьшится точность результата
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="c" />
+                C.Результат останется неизменным
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q29" value="d" />
+                D.Зависит от используемой системы счисления
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card quizlib-question">
+        <div class="quizlib-question-title">
+          30.Что представляет собой "код Грея" в контексте арифметических операций над кодами?
+        </div>
+        <div class="quizlib-question-answers">
+          <ul>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="a" />
+                A.Код, изменяющий свою структуру в зависимости от контекста
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="b" />
+                B.Код, предназначенный только для арифметических вычислений
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="c" />
+                C.Код, в котором соседние значения имеют только один различающийся бит
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="q30" value="d" />
+                D.Код, представляющий числа с фиксированным количеством десятичных знаков
+              </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Quiz Results -->
+      <div id="quiz-result" class="card">
+        результат тестов
+        <span id="quiz-percent"></span>
+        % -
+        <span id="quiz-score"></span>
+        /
+        <span id="quiz-max-score"></span>
+        <br />
+      </div>
+      <button type="button" onclick="showResults(this.parentNode.id);">
+        Проверить ответы
+      </button>
+    </div>
+  </body>
+  <script>
+    window.onload = function () {
+      quiz = new Quiz("quiz8", [
+        "a",
+        "d",
+        "b",
+        "b",
+        "a",
+        "d",
+        "d",
+        "a",
+        "a",
+        "a",
+        "c",
+        "a",
+        "a",
+        "b",
+        "b",
+        "a",
+        "b",
+        "b",
+        "b",
+        "a",
+        "c",
+        "c",
+        "c",
+        "d",
+        "а",
+        "c",
+        "b",
+        "a",
+        "a",
+        "c",
+      ]);
+    };
+  </script>
+</html>
