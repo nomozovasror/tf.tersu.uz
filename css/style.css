@@ -317,6 +317,7 @@ a.btn.white_btn {
 
 .img-responsive {
 	max-width: 100%;
+	max-height: 250px;
 }
 
 .color_black p,
@@ -3334,6 +3335,7 @@ footer h4 {
 .footer_blog {
 	float: left;
 	width: 50%;
+	position: relative;
 	padding: 75px 75px 100px 75px;
 }
 
@@ -3441,7 +3443,6 @@ footer ul.social_icons {
 	height: auto;
 	left: 0;
 	padding: 18px 0;
-	padding-left: 50%;
 }
 
 .cprt p {
